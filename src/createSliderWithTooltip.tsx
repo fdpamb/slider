@@ -1,28 +1,44 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Tooltip from 'rc-tooltip';
 import Handle from './Handle';
 
+interface ComponentWrapperProps {
+  tipFormatter: (value: number) => React.ReactNode;
+  tipProps: {
+    prefixCls?: string;
+    overlay?: string;
+    placement?: string;
+    visible?: boolean;
+  };
+  handleStyle?: React.CSSProperties;
+  getTooltipContainer?: () => HTMLElement;
+}
+
+interface ComponentWrapperState {
+  visibles: Record<number, boolean>;
+}
+
 export default function createSliderWithTooltip(Component) {
-  return class ComponentWrapper extends React.Component {
-    static propTypes = {
-      tipFormatter: PropTypes.func,
-      handleStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.arrayOf(PropTypes.object)]),
-      tipProps: PropTypes.object,
-      stepsTooltip: PropTypes.bool,
-    };
+  return class ComponentWrapper extends React.Component<
+    ComponentWrapperProps,
+    ComponentWrapperState
+  > {
     static defaultProps = {
-      tipFormatter(value) { return value; },
+      tipFormatter(value: number) {
+        return value;
+      },
       handleStyle: [{}],
       tipProps: {},
+      getTooltipContainer: node => node.parentNode,
       stepsTooltip: true,
     };
-    constructor(props) {
-      super(props);
-      this.state = { visibles: {} };
-    }
+
+    state = {
+      visibles: {},
+    };
+
     handleTooltipVisibleChange = (index, visible) => {
-      this.setState((prevState) => {
+      this.setState(prevState => {
         return {
           visibles: {
             ...prevState.visibles,
@@ -30,13 +46,10 @@ export default function createSliderWithTooltip(Component) {
           },
         };
       });
-    }
+    };
+
     handleWithTooltip = ({ value, dragging, index, disabled, ...restProps }) => {
-      const {
-        tipFormatter,
-        tipProps,
-        handleStyle,
-      } = this.props;
+      const { tipFormatter, tipProps, handleStyle, getTooltipContainer } = this.props;
 
       const {
         prefixCls = 'rc-slider-tooltip',
@@ -56,13 +69,13 @@ export default function createSliderWithTooltip(Component) {
       return (
         <Tooltip
           {...restTooltipProps}
+          getTooltipContainer={getTooltipContainer}
           prefixCls={prefixCls}
           overlay={overlay}
           placement={placement}
           visible={(!disabled && (this.state.visibles[index] || dragging)) || visible}
           key={index}
         >
-
           <Handle
             {...restProps}
             style={{
@@ -74,7 +87,8 @@ export default function createSliderWithTooltip(Component) {
           />
         </Tooltip>
       );
-    }
+    };
+
     render() {
       return <Component {...this.props} handle={this.handleWithTooltip} />;
     }
