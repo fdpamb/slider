@@ -52,8 +52,8 @@
   "dependencies": {
     "@babel/runtime": "^7.10.1",
     "classnames": "^2.2.5",
-    "rc-tooltip": "^6.2.0",
-    "rc-util": "^5.16.1",
+    "rc-tooltip": "^5.3.1",
+    "rc-util": "^5.43.0",
     "shallowequal": "^1.1.0"
   },
   "devDependencies": {
