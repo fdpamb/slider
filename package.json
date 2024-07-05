@@ -34,6 +34,7 @@
   "types": "./lib/index.d.ts",
   "scripts": {
     "start": "dumi dev",
+    "build": "npm run compile",
     "docs:build": "dumi build",
     "docs:deploy": "gh-pages -d .doc",
     "compile": "father build && lessc assets/index.less assets/index.css",
