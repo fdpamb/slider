@@ -5,13 +5,11 @@ import _defineProperty from "@babel/runtime/helpers/esm/defineProperty";
 import _toConsumableArray from "@babel/runtime/helpers/esm/toConsumableArray";
 import _classCallCheck from "@babel/runtime/helpers/esm/classCallCheck";
 import _createClass from "@babel/runtime/helpers/esm/createClass";
-import _possibleConstructorReturn from "@babel/runtime/helpers/esm/possibleConstructorReturn";
-import _isNativeReflectConstruct from "@babel/runtime/helpers/esm/isNativeReflectConstruct";
+import _callSuper from "@babel/runtime/helpers/esm/callSuper";
 import _get from "@babel/runtime/helpers/esm/get";
 import _getPrototypeOf from "@babel/runtime/helpers/esm/getPrototypeOf";
 import _inherits from "@babel/runtime/helpers/esm/inherits";
 var _excluded = ["index"];
-function _callSuper(t, o, e) { return o = _getPrototypeOf(o), _possibleConstructorReturn(t, _isNativeReflectConstruct() ? Reflect.construct(o, e || [], _getPrototypeOf(t).constructor) : o.apply(t, e)); }
 import React from 'react';
 import addEventListener from "rc-util/es/Dom/addEventListener";
 import classNames from 'classnames';
