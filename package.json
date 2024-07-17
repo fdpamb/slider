@@ -43,7 +43,8 @@
     "prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
     "test": "father test",
     "coverage": "father test --coverage",
-    "now-build": "npm run docs:build"
+    "now-build": "npm run docs:build",
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "react": ">=16.9.0",
