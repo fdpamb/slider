@@ -65,11 +65,11 @@
     "@umijs/fabric": "^4.0.1",
     "cheerio": "1.0.0-rc.12",
     "cross-env": "^7.0.3",
-    "dumi": "^2.4.9",
+    "dumi": "^2.4.10",
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.1",
     "enzyme-to-json": "^3.1.2",
-    "eslint": "^9.9.1",
+    "eslint": "^9.10.0",
     "father": "^2.30.23",
     "father-build": "^1.22.5",
     "gh-pages": "^6.1.1",
@@ -79,6 +79,6 @@
     "rc-trigger": "github:fdpamb/trigger#upgrade-5.x",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "typescript": "^5.5.3"
+    "typescript": "^5.6.2"
   }
 }
