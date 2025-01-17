@@ -69,16 +69,16 @@
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.1",
     "enzyme-to-json": "^3.1.2",
-    "eslint": "^9.17.0",
+    "eslint": "^9.18.0",
     "father": "^2.30.23",
     "father-build": "^1.22.5",
     "gh-pages": "^6.3.0",
-    "glob": "^11.0.0",
+    "glob": "^11.0.1",
     "less": "^3.13.1",
     "np": "^10.1.0",
     "rc-trigger": "github:fdpamb/trigger#upgrade-5.x",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.3"
   }
 }
