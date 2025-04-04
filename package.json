@@ -74,7 +74,7 @@
     "glob": "^11.0.1",
     "less": "^3.13.1",
     "np": "^10.2.0",
-    "rc-trigger": "github:fdpamb/trigger#upgrade-5.x",
+    "rc-trigger": "5.3.4",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "typescript": "^5.8.2"
