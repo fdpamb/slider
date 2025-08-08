@@ -50,7 +50,7 @@
     "react-dom": ">=16.9.0"
   },
   "dependencies": {
-    "@babel/runtime": "^7.27.6",
+    "@babel/runtime": "^7.28.2",
     "classnames": "^2.5.1",
     "rc-tooltip": "github:fdpamb/tooltip#upgrade-5.x",
     "rc-util": "^5.44.4",
@@ -77,6 +77,6 @@
     "rc-trigger": "5.3.4",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
   }
 }
