@@ -77,6 +77,47 @@
     "rc-trigger": "5.3.4",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "@rollup/plugin-node-resolve": {
+      "es5-ext": "0.10.53"
+    },
+    "es6-iterator": {
+      "es5-ext": "0.10.53"
+    },
+    "d": {
+      "es5-ext": "0.10.53"
+    },
+    "webpack": {
+      "es5-ext": "0.10.53"
+    },
+    "event-emitter": {
+      "es5-ext": "0.10.53"
+    },
+    "esniff": {
+      "es5-ext": "0.10.53"
+    },
+    "@umijs/bundler-webpack": {
+      "es5-ext": "0.10.53"
+    },
+    "@umijs/preset-umi": {
+      "es5-ext": "0.10.53"
+    },
+    "@umijs/mako": {
+      "es5-ext": "0.10.53"
+    },
+    "father": {
+      "es5-ext": "0.10.53"
+    },
+    "father-build": {
+      "es5-ext": "0.10.53"
+    },
+    "rst-selector-parser": {
+      "es5-ext": "0.10.53"
+    },
+    "JSONStream": {
+      "es5-ext": "0.10.53"
+    }
   }
 }
