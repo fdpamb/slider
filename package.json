@@ -71,7 +71,7 @@
     "father": "^2.30.23",
     "father-build": "^1.22.5",
     "gh-pages": "^6.3.0",
-    "glob": "^11.1.0",
+    "glob": "^13.0.0",
     "less": "^3.13.1",
     "np": "^10.2.0",
     "rc-trigger": "5.3.4",
@@ -109,10 +109,11 @@
     },
     "father": {
       "es5-ext": "github:fdpamb/es5-ext#patch-upgrade-0.10.64",
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "father-build": {
-      "es5-ext": "github:fdpamb/es5-ext#patch-upgrade-0.10.64"
+      "es5-ext": "github:fdpamb/es5-ext#patch-upgrade-0.10.64",
+      "gh-pages": "5.0.0"
     },
     "rst-selector-parser": {
       "es5-ext": "github:fdpamb/es5-ext#patch-upgrade-0.10.64",
@@ -188,77 +189,94 @@
       "shell-quote": "^1.8.3"
     },
     "re-resizable": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "js-yaml": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "react-copy-to-clipboard": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "html2sketch": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "@rc-component/portal": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "rc-tooltip": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "rc-tree": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "rc-tabs": {
-      "gh-pages": "^6.3.0"
+      "rc-resize-observer": {
+        "gh-pages": "5.0.0"
+      },
+      "rc-menu": {
+        "gh-pages": "5.0.0"
+      },
+      "gh-pages": "5.0.0"
     },
     "rc-menu": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "@storybook/addon-actions": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "@storybook/components": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "react-popper": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "@storybook/addon-knobs": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "react-select": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "react-input-autosize": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "@storybook/ui": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "@storybook/addon-storysource": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "@storybook/addon-notes": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "dumi": {
-      "gh-pages": "^6.3.0",
-      "rc-tooltip": "github:fdpamb/tooltip#upgrade-5.x"
+      "gh-pages": "5.0.0",
+      "rc-tooltip": {
+        "gh-pages": "5.0.0"
+      }
     },
     "rc-virtual-list": {
-      "gh-pages": "^6.3.0"
+      "rc-resize-observer": {
+        "gh-pages": "5.0.0"
+      },
+      "gh-pages": "5.0.0"
     },
     "rc-resize-observer": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "@rc-component/trigger": {
-      "gh-pages": "^6.3.0"
+      "rc-resize-observer": {
+        "gh-pages": "5.0.0"
+      },
+      "gh-pages": "5.0.0"
     },
     "rc-motion": {
-      "gh-pages": "^6.3.0"
+      "gh-pages": "5.0.0"
     },
     "rc-overflow": {
-      "gh-pages": "^6.3.0"
+      "rc-resize-observer": {
+        "gh-pages": "5.0.0"
+      },
+      "gh-pages": "5.0.0"
     },
     "parse-asn1": {
       "pbkdf2": "^3.1.5"
