@@ -33,6 +33,7 @@
   "style": "./assets/index.css",
   "types": "./lib/index.d.ts",
   "scripts": {
+    "install": "npm install --ignore-scripts",
     "start": "dumi dev",
     "build": "npm run compile",
     "docs:build": "dumi build",
@@ -50,34 +51,34 @@
     "react-dom": ">=16.9.0"
   },
   "dependencies": {
-    "@babel/runtime": "^7.29.2",
-    "classnames": "^2.5.1",
+    "@babel/runtime": "7.29.7",
+    "classnames": "2.5.1",
     "rc-tooltip": "github:fdpamb/tooltip#upgrade-5.x",
-    "rc-util": "^5.44.4",
-    "shallowequal": "^1.1.0"
+    "rc-util": "5.44.4",
+    "shallowequal": "1.1.0"
   },
   "devDependencies": {
     "@types/classnames": "^2.3.0",
-    "@types/jest": "^29.5.14",
-    "@types/react": "^16.14.69",
-    "@types/react-dom": "^16.9.25",
-    "@umijs/fabric": "^4.0.1",
+    "@types/jest": "29.5.14",
+    "@types/react": "16.14.70",
+    "@types/react-dom": "16.9.25",
+    "@umijs/fabric": "4.0.1",
     "cheerio": "1.0.0-rc.12",
-    "cross-env": "^7.0.3",
-    "dumi": "^2.4.23",
-    "enzyme": "^3.1.0",
-    "enzyme-adapter-react-16": "^1.0.1",
-    "enzyme-to-json": "^3.1.2",
-    "father": "^2.30.23",
-    "father-build": "^1.22.5",
-    "gh-pages": "^6.3.0",
-    "glob": "^13.0.6",
-    "less": "^3.13.1",
-    "np": "^11.1.0",
+    "cross-env": "7.0.3",
+    "dumi": "2.4.47",
+    "enzyme": "3.1.0",
+    "enzyme-adapter-react-16": "1.0.1",
+    "enzyme-to-json": "3.1.2",
+    "father": "2.30.23",
+    "father-build": "1.22.5",
+    "gh-pages": "6.3.0",
+    "glob": "13.0.6",
+    "less": "3.13.1",
+    "np": "11.2.2",
     "rc-trigger": "5.3.4",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "typescript": "^5.9.3"
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "typescript": "5.9.3"
   },
   "overrides": {
     "@rollup/plugin-node-resolve": {
@@ -117,76 +118,76 @@
     },
     "rst-selector-parser": {
       "es5-ext": "github:fdpamb/es5-ext#patch-upgrade-0.10.64",
-      "form-data": "^2.5.5",
-      "pbkdf2": "^3.1.5",
-      "sha.js": "^2.4.12"
+      "form-data": "2.5.6",
+      "pbkdf2": "3.1.6",
+      "sha.js": "2.4.12"
     },
     "JSONStream": {
       "es5-ext": "github:fdpamb/es5-ext#patch-upgrade-0.10.64"
     },
     "express": {
-      "ejs": "^3.1.10"
+      "ejs": "3.1.10"
     },
     "accord": {
-      "ejs": "^3.1.10"
+      "ejs": "3.1.10"
     },
     "eslint": {
-      "ejs": "^3.1.10"
+      "ejs": "3.1.10"
     },
     "@storybook/core": {
-      "ejs": "^3.1.10"
+      "ejs": "3.1.10"
     },
     "webpack-bundle-analyzer": {
-      "ejs": "^3.1.10"
+      "ejs": "3.1.10"
     },
     "axe-core": {
-      "form-data": "^2.5.5"
+      "form-data": "2.5.6"
     },
     "phantomjs": {
-      "form-data": "^2.5.5"
+      "form-data": "2.5.6"
     },
     "qunit": {
-      "form-data": "^2.5.5"
+      "form-data": "2.5.6"
     },
     "jasmine": {
-      "form-data": "^2.5.5"
+      "form-data": "2.5.6"
     },
     "mocha": {
-      "form-data": "^2.5.5"
+      "form-data": "2.5.6"
     },
     "codesandboxer": {
-      "form-data": "^2.5.5"
+      "form-data": "2.5.6"
     },
     "got": {
-      "form-data": "^2.5.5"
+      "form-data": "2.5.6"
     },
     "node-fetch": {
-      "form-data": "^2.5.5"
+      "form-data": "2.5.6"
     },
     "node-fetch-npm": {
-      "form-data": "^2.5.5"
+      "form-data": "2.5.6"
     },
     "jest_react": {
-      "form-data": "^2.5.5"
+      "form-data": "2.5.6"
     },
     "isomorphic-fetch": {
-      "form-data": "^2.5.5"
+      "form-data": "2.5.6"
     },
     "request": {
-      "form-data": "^2.5.5"
+      "form-data": "2.5.6"
     },
     "npm-normalize-package-bin": {
-      "form-data": "^2.5.5"
+      "form-data": "2.5.6"
     },
     "umi-utils": {
-      "form-data": "^2.5.5"
+      "form-data": "2.5.6"
     },
     "np": {
-      "form-data": "^2.5.5"
+      "form-data": "2.5.6"
     },
     "docz-plugin-umi-css": {
-      "form-data": "^2.5.5",
-      "shell-quote": "^1.8.3"
+      "form-data": "2.5.6",
+      "shell-quote": "1.8.4"
     },
     "re-resizable": {
       "gh-pages": "5.0.0"
@@ -279,22 +280,22 @@
       "gh-pages": "5.0.0"
     },
     "parse-asn1": {
-      "pbkdf2": "^3.1.5"
+      "pbkdf2": "3.1.6"
     },
     "crypto-browserify": {
-      "pbkdf2": "^3.1.5"
+      "pbkdf2": "3.1.6"
     },
     "pbkdf2": {
-      "sha.js": "^2.4.12"
+      "sha.js": "2.4.12"
     },
     "create-hash": {
-      "sha.js": "^2.4.12"
+      "sha.js": "2.4.12"
     },
     "create-hmac": {
-      "sha.js": "^2.4.12"
+      "sha.js": "2.4.12"
     },
     "react-dev-utils": {
-      "shell-quote": "^1.8.3"
+      "shell-quote": "1.8.4"
     }
   }
 }
